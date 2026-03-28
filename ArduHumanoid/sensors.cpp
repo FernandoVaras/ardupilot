@@ -1,0 +1,9 @@
+#include "ArduHumanoid.h"
+
+// return barometric altitude in centimeters
+void Humanoid::read_barometer(void)
+{
+    barometer.update();
+
+    baro_alt = barometer.get_altitude() * 100.0f;
+}
