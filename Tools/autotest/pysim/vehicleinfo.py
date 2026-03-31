@@ -285,6 +285,15 @@ class VehicleInfo(object):
             },
         },
     },
+    "ArduHumanoid": {
+        "default_frame": "humanoid",
+        "frames": {
+            "humanoid": {
+                "waf_target": "bin/humanoid",
+                "sitl-port": True,
+            },
+        },
+    },
     "ArduPlane": {
         "default_frame": "plane",
         "frames": {

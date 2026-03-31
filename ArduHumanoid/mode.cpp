@@ -43,6 +43,9 @@ Mode *Humanoid::mode_from_mode_num(const Mode::Number mode)
     case Mode::Number::RTL:
         ret = &mode_rtl;
         break;
+    case Mode::Number::STAND:
+        ret = &mode_stand;
+        break;
     default:
         break;
     }

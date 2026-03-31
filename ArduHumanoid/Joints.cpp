@@ -22,7 +22,7 @@ const AP_Param::GroupInfo Joints::var_info[] = {
     // @Description: Enables double speed on high offset.
     // @Range: 0 1
     // @User: Standard
-    AP_GROUPINFO("TURBO_MODE", 2, Joints, turbo_mode, 0),
+    AP_GROUPINFO("TURBO", 2, Joints, turbo_mode, 0),
 
     AP_GROUPEND
 };

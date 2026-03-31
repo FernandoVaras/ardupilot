@@ -362,7 +362,7 @@
       <fdm_port_in>9002</fdm_port_in>
       <fdm_port_out>9003</fdm_port_out>
       <connectionTimeoutMaxCount>5</connectionTimeoutMaxCount>
-      <modelXYZToAirplaneXForwardZDown degrees="true">0 0 0 180 0 0</modelXYZToAirplaneXForwardZDown>
+      <modelXYZToAirplaneXForwardZDown degrees="true">0 0 0 0 0 0</modelXYZToAirplaneXForwardZDown>
       <gazeboXYZToNED degrees="true">0 0 0 180 0 90</gazeboXYZToNED>
       <imuName>torso::imu</imuName>
       <control channel="0">

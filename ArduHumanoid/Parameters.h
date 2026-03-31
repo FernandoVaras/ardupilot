@@ -197,6 +197,7 @@ public:
         k_param_fs_ekf_action = 220,
         k_param_arming,
 
+
         k_param_logger = 253, // 253 - Logging Group
 
         k_param_vehicle = 257, // vehicle common block of parameters
@@ -304,6 +305,10 @@ public:
     AP_Int32 fs_options;
 
     AP_Float fs_gcs_timeout;
+
+    // Stand mode PD gains
+
+    
 };
 
 extern const AP_Param::Info        var_info[];
